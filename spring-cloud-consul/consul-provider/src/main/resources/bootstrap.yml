@@ -6,7 +6,7 @@ spring:
     name: consul-register #自定义consul注册信息演示工程
   cloud:
     consul:
-      host: 192.168.16.113    # consul 启动地址
+      host: 192.168.16.114    # consul 启动地址
       port: 8500         # consul 启动端口
       #consul discovery服务注册：注册自身提供的服务
       discovery:

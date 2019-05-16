@@ -6,7 +6,8 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.3.RELEASE</version>
+        <!-- Spring Cloud Finchley 基于 Spring Boot 2.0.x 而构建 -->
+        <version>2.0.5.RELEASE</version>
         <relativePath/>
     </parent>
 

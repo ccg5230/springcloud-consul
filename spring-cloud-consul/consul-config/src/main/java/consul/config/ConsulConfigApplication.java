@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @SpringBootApplication
 @RestController
-@RefreshScope
+//@RefreshScope 参数值修改后自动刷新
 public class ConsulConfigApplication {
     public static void main(String[] args) {
         SpringApplication.run(ConsulConfigApplication.class,args);

@@ -5,7 +5,7 @@ spring:
     name: consul-consumer-ribbon
   cloud:
     consul:
-      host: 192.168.16.113    # consul 启动地址
+      host: 192.168.16.115    # consul 启动地址
       port: 8500         # consul 启动端口
       discovery:
         server-list-query-tags:     # 注意 server-list-query-tags 是一个 map
